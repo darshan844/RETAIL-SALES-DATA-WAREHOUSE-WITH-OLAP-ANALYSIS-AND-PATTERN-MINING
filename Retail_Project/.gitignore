@@ -1,0 +1,42 @@
+# Virtual environment (recommended; avoids Anaconda NumPy conflicts)
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local data & outputs (keep structure; ignore heavy files)
+data/*.csv
+!data/.gitkeep
+results/**/*.csv
+results/**/*.png
+!results/charts/.gitkeep
+!results/olap/.gitkeep
+
+# Secrets
+.env
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp/log artifacts
+*.log
+*.tmp
+*.temp

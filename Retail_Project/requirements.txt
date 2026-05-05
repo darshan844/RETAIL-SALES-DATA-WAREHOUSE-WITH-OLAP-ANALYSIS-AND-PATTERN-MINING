@@ -1,0 +1,10 @@
+# Retail Sales DW & Pattern Mining — MS project dependencies
+# Python 3.9+ recommended
+
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+openpyxl>=3.1.0
+mlxtend>=0.22.0
+PyMySQL>=1.1.0
+SQLAlchemy>=2.0.0
